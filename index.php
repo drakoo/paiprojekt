@@ -22,6 +22,7 @@ $result_site_propertise = mysql_query('SELECT * FROM site_properties',$sql)
 $record_site_propertise = mysql_fetch_array($result_site_propertise, MYSQL_ASSOC);
 
 /* CONTACT */
+
 mysql_query('SET NAMES utf8');	
 
 	$result_contact = mysql_query('SELECT * FROM contact',$sql)
@@ -30,6 +31,7 @@ mysql_query('SET NAMES utf8');
 	$record_contact = mysql_fetch_array($result_contact, MYSQL_ASSOC);
 
 /* MENU */ 
+
 $resultm = mysql_query('SELECT * FROM subpage',$sql)
 	or die('Błędne zapytanie: '.mysql_error());
 	
