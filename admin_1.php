@@ -44,7 +44,7 @@ if(isset($_POST['save']))
 
 ?>
 
-<form action="admin.php?admin=historia" method="post">
+<form action="admin.php?admin=1" method="post">
 	<div style="padding-bottom:20px"><div style="float:left;margin-right:10px">Nazwa podstrony <br /><small>(nazwa wyświetlająca się w menu)</small>: </div><div style="float:left"><input type="text" name="site_pagename" size="40" value="<?php echo $pagename ?>" maxlength="50" /></div></div>
 	<br /><br />
 	<textarea name="site_contents"><?php echo $contents ?></textarea>
